@@ -1,0 +1,16 @@
+{
+  "name": "tweak-installed-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "zarro build",
+      "zarro": "cross-env DOTNET_CORE=1 zarro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "zarro": "^1.104.0"
+  }
+}
